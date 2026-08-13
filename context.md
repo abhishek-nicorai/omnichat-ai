@@ -45,3 +45,7 @@
 ## Latest Update
 - **Date:** [13-08-2026]
 - **Update:** Provisioned Aiven Postgres. Defined SQLAlchemy models for Tenants and DocumentChunks. Integrated pgvector for future RAG capabilities.
+
+## Latest Update
+- **Date:** [13-08-2026]
+- **Update:** Configured SQLAlchemy to automatically create tables on startup. Verified pgvector extension in Aiven.

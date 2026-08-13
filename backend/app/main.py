@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.v1.api import api_router
-
+from app.db.session import engine
+from app.models import models
+ 
+models.Base.metadata.create_all(bind=engine)
 app = FastAPI(title="OmniChat AI API")
 
 # Enable CORS for the future Widget and Admin Dashboard
