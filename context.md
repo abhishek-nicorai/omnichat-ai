@@ -1,0 +1,17 @@
+# Project Context: OmniChat AI
+
+## Project Status
+- **Phase:** 1 - Foundation & Workspace Initialization
+- **Current Goal:** Setting up the modular repository structure and CI/CD baseline.
+
+## Implementation Checklist
+- [x] Define Project Architecture & Tech Stack
+- [x] Initialize Root Directory & Workspace Structure
+- [ ] Create initial .gitignore
+- [ ] Setup Backend Scaffolding (FastAPI)
+- [ ] Setup Frontend Scaffolding (Next.js)
+- [ ] Configure Initial CI/CD Pipelines
+
+## Latest Update
+- **Date:** 2024-05-22 (Update with today's date)
+- **Update:** Created the project structure with modular directories for backend, frontend, and widget. Initialized context.md for progress tracking.
