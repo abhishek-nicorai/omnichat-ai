@@ -41,3 +41,7 @@
 ## Latest Update
 - **Date:** [Current Date]
 - **Update:** Initialized Next.js frontend with Tailwind CSS. Connected frontend to backend via environment variables and verified connectivity using the health-check endpoint.
+
+## Latest Update
+- **Date:** [13-08-2026]
+- **Update:** Provisioned Aiven Postgres. Defined SQLAlchemy models for Tenants and DocumentChunks. Integrated pgvector for future RAG capabilities.
