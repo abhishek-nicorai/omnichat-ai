@@ -49,3 +49,24 @@
 ## Latest Update
 - **Date:** [13-08-2026]
 - **Update:** Configured SQLAlchemy to automatically create tables on startup. Verified pgvector extension in Aiven.
+
+## Project Status
+- **Phase:** 2 - Data & Multi-tenancy
+- **Current Goal:** Integrating Clerk Authentication and protecting routes.
+
+## Implementation Checklist
+- [x] Setup Backend Scaffolding (FastAPI)
+- [x] Setup Frontend Scaffolding (Next.js)
+- [x] Provision Aiven Postgres with pgvector
+- [x] Implement Database Models & Table Creation
+- [x] Install & Configure Clerk (Frontend)
+- [ ] Implement Tenant Sync (Clerk User -> DB Tenant)
+- [ ] Setup Backend Auth Verification
+
+## Latest Update
+- **Date:** [Current Date]
+- **Update:** Installed Clerk SDK. Implemented middleware for route protection. Configured environment variables for frontend authentication.
+
+## Latest Update
+- **Date:** [Current Date]
+- **Update:** Implemented Clerk Sign-In and Sign-Up pages using catch-all segments. Resolved 404 redirect error.
