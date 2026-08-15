@@ -94,3 +94,30 @@
 ## Latest Update
 - **Date:** 2024-05-22
 - **Update:** Completed the Tenant Configuration UI. Users can now update their bot name and brand color directly from the dashboard, which syncs instantly with Aiven Postgres.
+
+# Project Context: OmniChat AI
+
+## Project Status
+- **Phase:** 3 - Intelligence & Ingestion
+- **Current Goal:** Integrating Gemini API for Embeddings and Chat.
+
+## Implementation Checklist
+- [x] Integrate Clerk Auth & Tenant Sync
+- [x] Build Tenant Settings UI
+- [x] Configure Gemini API Key
+- [x] Implement AIService for Embeddings (768-dim)
+- [ ] Build File Upload Endpoint (FastAPI)
+- [ ] Implement Text Chunking & Vector Ingestion
+
+## Latest Update
+- **Date:** 2024-05-22
+- **Update:** Initialized Phase 3. Integrated Google Gemini API. Successfully tested 768-dimension embedding generation using text-embedding-004.
+
+# Project Context: OmniChat AI
+
+## Implementation Checklist
+- [x] Integrate Clerk Auth & Tenant Sync
+- [x] Fix Environment Compatibility (Python 3.12)
+- [x] Update Embedding Model (Migrated to gemini-embedding-001 due to text-embedding-004 deprecation)
+- [ ] Build File Upload Endpoint (FastAPI)
+- [ ] Implement Text Chunking & Vector Ingestion
