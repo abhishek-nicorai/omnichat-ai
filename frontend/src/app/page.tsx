@@ -69,7 +69,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold">OmniChat Dashboard</h1>
           <p className="text-zinc-500 text-sm">Manage your AI assistant settings</p>
         </div>
-        <UserButton afterSignOutUrl="/sign-in" />
+        <UserButton />
       </div>
 
       <div className="max-w-3xl mx-auto">
