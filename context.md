@@ -121,3 +121,21 @@
 - [x] Update Embedding Model (Migrated to gemini-embedding-001 due to text-embedding-004 deprecation)
 - [ ] Build File Upload Endpoint (FastAPI)
 - [ ] Implement Text Chunking & Vector Ingestion
+
+# Project Context: OmniChat AI
+
+## Project Status
+- **Phase:** 3 - Intelligence & Ingestion
+- **Current Goal:** Building the Data Ingestion Pipeline.
+
+## Implementation Checklist
+- [x] Implement AIService for Embeddings
+- [x] Setup PDF Text Extraction (PyMuPDF)
+- [x] Implement Recursive Text Chunking
+- [x] Create /ingestion/upload Endpoint
+- [ ] Build Frontend File Upload UI
+- [ ] Phase 4: Chat Retrieval (RAG) logic
+
+## Latest Update
+- **Date:** [Current Date]
+- **Update:** Implemented a modular Ingestion Pipeline. The system can now take a PDF, split it into chunks, generate Gemini embeddings, and store them in Aiven Postgres with tenant isolation.
