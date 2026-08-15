@@ -70,3 +70,27 @@
 ## Latest Update
 - **Date:** [Current Date]
 - **Update:** Implemented Clerk Sign-In and Sign-Up pages using catch-all segments. Resolved 404 redirect error.
+
+## Latest Update
+- **Date:** [Current Date]
+- **Update:** Implemented "Just-in-Time" tenant creation. When a user logs into the dashboard, they are automatically registered in the Aiven database with default bot settings.
+
+## Latest Update
+- **Date:** 2024-05-22
+- **Update:** Identified 404 error caused by missing version prefix (/api/v1) in the frontend environment variable. Corrected .env.local and verified route alignment.
+
+# Project Status
+- **Phase:** 2 - Data & Multi-tenancy
+- **Current Goal:** Finalizing Tenant Management and transitioning to RAG Ingestion.
+
+## Implementation Checklist
+- [x] Integrate Clerk Auth
+- [x] Implement JIT Tenant Sync
+- [x] Create /tenants/{id} PATCH endpoint
+- [x] Build Frontend Settings Form with Live Preview
+- [ ] Phase 3: Setup Gemini API & Ingestion Pipeline
+- [ ] Phase 3: File Upload logic for PDFs
+
+## Latest Update
+- **Date:** 2024-05-22
+- **Update:** Completed the Tenant Configuration UI. Users can now update their bot name and brand color directly from the dashboard, which syncs instantly with Aiven Postgres.
