@@ -139,3 +139,22 @@
 ## Latest Update
 - **Date:** [Current Date]
 - **Update:** Implemented a modular Ingestion Pipeline. The system can now take a PDF, split it into chunks, generate Gemini embeddings, and store them in Aiven Postgres with tenant isolation.
+
+
+# Project Context: OmniChat AI
+
+## Project Status
+- **Phase:** 4 - Retrieval & RAG
+- **Current Goal:** Implementing the reasoning engine (Vector Search + Gemini).
+
+## Implementation Checklist
+- [x] Integrate Clerk Auth & JIT Sync
+- [x] Ingestion Pipeline (PDF -> Vector)
+- [x] Implement Vector Similarity Search (pgvector)
+- [x] Create /chat/{tenant_id}/query Endpoint
+- [ ] Build "Live Playground" UI in Dashboard
+- [ ] Phase 5: Embeddable Widget
+
+## Latest Update
+- **Date:** 2024-05-22
+- **Update:** Completed the Backend RAG logic. The system now uses pgvector's cosine distance to fetch context-specific chunks and Gemini 1.5 Flash to generate grounded responses.
