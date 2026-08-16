@@ -158,3 +158,11 @@
 ## Latest Update
 - **Date:** 2024-05-22
 - **Update:** Completed the Backend RAG logic. The system now uses pgvector's cosine distance to fetch context-specific chunks and Gemini 1.5 Flash to generate grounded responses.
+
+# Project Context: OmniChat AI
+
+## Implementation Checklist
+- [x] Refactor page.tsx into Modular Components (Identity, Knowledge, Chat)
+- [x] Implement Live Playground UI in Dashboard
+- [ ] Phase 5: Build Embeddable Widget (Preact)
+- [ ] Phase 5: Security Hardening (API Scoping)
