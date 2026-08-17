@@ -2,7 +2,7 @@
     // 1. Configuration - GET THE API KEY FROM THE SCRIPT TAG
     const script = document.currentScript;
     const apiKey = script.getAttribute('data-api-key');
-    const apiUrl = "http://127.0.0.1:8000/api/v1"; // <--- CHANGE THIS TO YOUR RENDER URL
+    const apiUrl = "https://omnichat-backend-l0n9.onrender.com/api/v1"; // <--- CHANGE THIS TO YOUR RENDER URL
 
     async function initWidget() {
         try {
