@@ -37,7 +37,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold tracking-tight italic">OMNICHAT AI</h1>
           <p className="text-zinc-500 text-sm">Dashboard for {tenant.bot_name}</p>
         </div>
-        <UserButton afterSignOutUrl="/sign-in" />
+        <UserButton />
       </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">

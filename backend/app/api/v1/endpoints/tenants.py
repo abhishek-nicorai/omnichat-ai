@@ -63,3 +63,19 @@ def update_tenant(
     db.commit()
     db.refresh(db_tenant)
     return db_tenant
+
+
+@router.get("/public/config/{api_key}")
+def get_public_config(api_key: str, db: Session = Depends(get_db)):
+    # Look up the bot using the API Key (which is currently the Clerk ID)
+    tenant = db.query(Tenant).filter(Tenant.api_key == api_key).first()
+    
+    if not tenant:
+        raise HTTPException(status_code=404, detail="Bot not found")
+    
+    # Return only the public info (name, color, welcome message)
+    return {
+        "bot_name": tenant.bot_name,
+        "primary_color": tenant.primary_color,
+        "welcome_message": tenant.welcome_message
+    }
